@@ -6,6 +6,7 @@
 
 body {
   	color: #222;
+ 	background: #fff;
   	background: #fff;
   	margin: 20;
 	padding: 30;
@@ -17,23 +18,20 @@ body {
 
 body.dark-theme {
   	color: #eee;
-  	background:: #121212;
+  	background: #121212;
   	margin: 20;
 	padding: 30;
 	border: 20;
 	font-size: inherit;
 	font: inherit;
 	vertical-align: baseline;
+
+a {
+  color: #0033cc;
 }
-body {
-  	color: #222;
-  	background: #fff;
-  	margin: 20;
-	padding: 30;
-	border: 20;
-	font-size: inherit;
-	font: inherit;
-	vertical-align: baseline;
+
+body.dark-theme a {
+  color: #809fff;
 }
 
 html, div, span, applet, object, iframe, blockquote, pre, abbr, acronym, address, big, cite, code,
