@@ -14,6 +14,7 @@
 [data-theme="dark"] {
  	--background-color: #121212;
   	--text-color: #fff;
+	--link-color: #616BFF;
 }
 
 body {
@@ -27,8 +28,7 @@ body {
 	vertical-align: baseline;
 }
 
-html, div, span, applet, object, iframe, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+html, div, span, applet, object, iframe, blockquote, pre, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -45,6 +45,10 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+
+a {
+	color: var(--text-color);
 }
 
 h1 {
