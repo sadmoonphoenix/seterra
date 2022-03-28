@@ -46,3 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* end reset style */
+
+@media (prefers-color-scheme: dark) {
+  	background-color: #000000
+	color: #FFFFFF
+}
