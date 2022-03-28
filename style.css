@@ -49,7 +49,7 @@ time, mark, audio, video {
 }
 
 a {
-	color: var(--text-color);
+	color: var(--link-color);
 }
 
 h1 {
