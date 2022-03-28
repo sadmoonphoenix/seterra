@@ -19,7 +19,6 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: 'Cantarell', sans-serif;
     vertical-align: baseline;
 }
 
@@ -54,7 +53,6 @@ table {
 
 /* end of reset style */
 html {
-    font-family: 'Cantarell', sans-serif;
     padding: 15px;
 }
 
