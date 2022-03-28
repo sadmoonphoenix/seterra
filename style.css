@@ -4,7 +4,27 @@
    modified slightly by me, moon
 */
 
+body {
+  	color: #222;
+  	background: #fff;
+  	margin: 20;
+	padding: 30;
+	border: 20;
+	font-size: inherit;
+	font: inherit;
+	vertical-align: baseline;
+}
 
+body.dark-theme {
+  	color: #eee;
+  	background:: #121212;
+  	margin: 20;
+	padding: 30;
+	border: 20;
+	font-size: inherit;
+	font: inherit;
+	vertical-align: baseline;
+}
 body {
   	color: #222;
   	background: #fff;
