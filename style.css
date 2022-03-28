@@ -4,8 +4,6 @@
    modified slightly by me, moon
 */
 body {
-    --text-color: #222;
-    --bkg-color: #fff;
     margin: 20;
     padding: 30;
     border: 20;
@@ -14,61 +12,16 @@ body {
     vertical-align: baseline;
 }
 
-a {
-    color: #0033cc;
-}
 
-/* Dark theme colors */
-body.dark-theme {
-    --text-color: #eee;
-    --bkg-color: #121212;
-    margin: 20;
-    padding: 30;
-    border: 20;
-    font-size: inherit;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-body.dark-theme a {
-    color: #809fff;
-}
 
 @media (prefers-color-scheme: dark) {
-
-    /* defaults to dark theme */
-    body {
-        --text-color: #eee;
-        --bkg-color: #121212;
-        margin: 20;
-        padding: 30;
-        border: 20;
-        font-size: inherit;
-        font: inherit;
-        vertical-align: baseline;
-    }
-
-    a {
-        color: #0033cc;
-    }
+   :root {
+     background: #121212;
+     color: eee;
+     
 }
+    
 
-@media (prefers-color-scheme: light) {
-    body.light-theme {
-        --text-color: #222;
-        --bkg-color: #fff;
-        margin: 20;
-        padding: 30;
-        border: 20;
-        font-size: inherit;
-        font: inherit;
-        vertical-align: baseline;
-    }
-
-    body.dark-theme a {
-        color: #809fff;
-    }
-}
 
 
 
