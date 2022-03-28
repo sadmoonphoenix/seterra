@@ -5,7 +5,9 @@
    also credit to https://www.pullrequest.com/blog/how-to-implement-dark-mode-with-css-js/ for base dark mode code
 */
 
-
+.nopadding {
+	padding: 0;
+}
 
 :root {
   	--background-color: #fff;
