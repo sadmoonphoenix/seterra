@@ -14,7 +14,7 @@
 :root {
   	--background-color: #fff;
   	--text-color: #000;
-	--link color: 0000EE;
+	--link-color: #0000EE;
 }
 
 [data-theme="dark"] {
