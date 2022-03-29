@@ -13,12 +13,25 @@ body {
 }
 
 
+@media (prefers-color-scheme: light) {
+   :root {
+     background: #FAF9F6;
+     color: #00000;
+   }
+   a {
+      color: #0000EE;
+   }
+     
+}
 
 @media (prefers-color-scheme: dark) {
    :root {
      background: #121212;
-     color: eee;
-      
+     color: #FAF9F6;
+   }
+   a {
+      color: #6473E8;
+   }
      
 }
     
