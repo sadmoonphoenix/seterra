@@ -4,16 +4,16 @@
    modified slightly by me, moon
 */
 body {
-    margin: 20;
-    padding: 30;
-    border: 20;
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-size: inherit;
     font: inherit;
     vertical-align: baseline;
 }
 
 
-:root {
+body {
     background: #FAF9F6;
     color: #00000;
 }
