@@ -4,9 +4,9 @@
    modified slightly by me, moon
 */
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 20;
+    padding: 30;
+    border: 20;
     font-size: inherit;
     font: inherit;
     vertical-align: baseline;
